@@ -1,0 +1,32 @@
+/*
+	Font faces
+	(Credit to Google)
+*/
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Medium.ttf');
+}
+
+/*
+	NOTE: ACCENT GREEN HEX CODE IS #355E3B
+*/
+
+/*
+	Body style
+	Simply includes fallback font and other tweaks.
+*/
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+	Navigation bar
+*/
+
+div.nav-bar {
+	background-color: #355E3B;
+	width: 100%;
+	position: fixed;
+}

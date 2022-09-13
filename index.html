@@ -1,24 +1,58 @@
+<!--
+	ANY CREDITS CAN BE FOUND IN ./readme.md
+
+	Wholly the work of John Shrubb unless noted otherwise.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--
+		CSS Stylesheets
+	-->
+
+	<link rel="stylesheet" href="./assets/css/cssreset.css" type="text/css"/>
+
+
 	<title>Ben and Jerry Garden Maintenance</title>
 </head>
 <body>
 	<div class="content-wrapper">
-		<div class="welcome-block">
-			<div class="upper-bar">
-				<h3>Ben and Jerry Garden Maintenance</h3>
-				<a href="./pages/about.html">About</a>
-				<a href="./pages/contact.html">Contact</a>
-			</div>
+		<div class="nav-bar">
+			<h3>Ben and Jerry Garden Maintenance</h3>
+			<a href="./pages/about.html">About</a>
+			<a href="./pages/contact.html">Contact</a>
+		</div>
 
+		<div class="welcome-block">
 			<div class="large-text">
-				<h1>Professional Garden Services</h1>
-				<p>Keeping your lawn down.</p>
+				<div class="h1-wrap">
+					<h1>Professional Garden Services</h1>
+				</div>
+				<div class="p-wrap"><!-- ;) -->
+					<p>Keeping your lawn down.</p>
+				</div>
 			</div>
+		</div>
+
+		<div class="about-block">
+			<h3>About us</h3>
+			<p>Ben and Jerry Garden Maintenance works magic on your lawn to transform your overgrown jungle of a garden into a neat lawn.</p>
+		</div>
+
+		<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=all%20gold%20comedy%20club%20york&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">google maps for my website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+
+		<div class="contact-block">
+			<h3>Contact Us</h3>
+			<p>Visit <a href="./pages/about.html">the booking page</a> if you would like to book a visit.<br>Otherwise fill out the form below and we will get right back to you.</p>
+			<form action="#">
+				<label for="youremail">Your Email Address</label><input type="text" name="Your Email" id="youremail" placeholder="john.smith@example.com">
+				<label for="yourname">Your Name</label><input type="text" name="Your Name" id="yourname" placeholder="John Smith">
+				<label for="messagecontent">Your Message</label><textarea name="" id="messagecontent" cols="30" rows="10" placeholder="What's on your mind?"></textarea>
+			</form>
 		</div>
 	</div>
 </body>
