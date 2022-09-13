@@ -29,4 +29,43 @@ div.nav-bar {
 	background-color: #355E3B;
 	width: 100%;
 	position: fixed;
+	
+	display: flex;
+	flex-direction: row;
+	color: white;
+	float: left;
 }
+
+div.nav-bar h3 {
+	font-family: 'Poppins';
+	font-size: 20pt;
+	padding: 10px;
+}
+
+/*
+	Get hyperlinks to bear right
+*/
+
+div.nav-bar div.a-wrapper {
+	display: flex;
+	flex-direction: row;
+
+	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+div.nav-bar div.a-wrapper a {
+	font-size: 18pt;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+/*
+	WELCOME BLOCK
+*/
+
+
