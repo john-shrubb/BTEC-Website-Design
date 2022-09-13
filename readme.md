@@ -5,3 +5,7 @@ This website is supposed to be a template site that can be easily modified to fi
 ## Documentation
 
 Documentation can be found [here](./doc/index.md).
+
+## Credits
+
+Credits can be found [here](./doc/credits.md)
