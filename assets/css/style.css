@@ -36,10 +36,12 @@ div.nav-bar {
 	float: left;
 }
 
-div.nav-bar h3 {
+div.nav-bar a {
 	font-family: 'Poppins';
 	font-size: 20pt;
 	padding: 10px;
+	text-decoration: none;
+	color: white;
 }
 
 /*
