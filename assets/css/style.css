@@ -8,6 +8,30 @@
 	src: url('../fonts/Poppins-Medium.ttf');
 }
 
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Var.ttf');
+}
+
+/*
+	The 'font-weight' property has a lack of support in IE 8 and below.
+	Internet Explorer is now a retired browser. It is insecure and should not be used in modern organisations due to the lack of security updates.
+*/
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Medium.ttf');
+
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Light.ttf');
+
+	font-weight: lighter;
+}
+
 /*
 	NOTE: ACCENT GREEN HEX CODE IS #355E3B
 */
@@ -76,6 +100,24 @@ div.nav-bar div.a-wrapper a:hover {
 div.nav-bar div.a-wrapper a:last-child {
 	margin-right: 10px;
 }
+
+/*
+	Navigation bar hamburger menu icon
+*/
+
+div.nav-bar button {
+	background: transparent;
+}
+
+div.nav-bar button img {
+	height: 0px; /* HEIGHT VALUE DYNAMICALLY CHANGES IN ../js/script.js */
+}
+
+/*
+	Actual hamburger menu
+*/
+
+
 
 /*
 	WELCOME BLOCK
