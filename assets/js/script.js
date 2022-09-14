@@ -35,7 +35,6 @@ window.onresize = () => {
 		// Show hamburger menu
 
 		hamburgerMenuButton.style.display = "inline-block";
-		hamburgerMenuLinks.style.display = "inline-block";
 
 		// Hide desktop links
 

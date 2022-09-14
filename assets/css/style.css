@@ -114,6 +114,8 @@ div.nav-bar div.a-wrapper a:last-child {
 
 div.nav-bar button {
 	background: transparent;
+	margin-left: auto;
+	padding-right: 5px;
 }
 
 div.nav-bar button img {
@@ -141,8 +143,13 @@ div.mobile-a-wrapper a {
 
 }
 
-/*
-	WELCOME BLOCK
-*/
+div.mobile-a-wrapper a:hover {
+	display: inline-block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-size: 20pt;
+	padding: 10px;
+	background: #244128;
 
-
+}
