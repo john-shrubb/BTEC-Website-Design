@@ -196,4 +196,11 @@ div.mobile-form {
 	div.contact-block div.mobile-form {
 		display: block;
 	}
+	div.contact-block div.mobile-form input[type="text"] {
+		width: 100%;
+	}
+
+	div.contact-block div.mobile-form textarea {
+		width: 100%;
+	}
 }
