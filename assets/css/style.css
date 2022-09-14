@@ -68,7 +68,8 @@ div.nav-bar {
 }
 
 div.nav-bar > a {
-	font-family: 'Poppins';
+	font-family: 'Roboto';
+	font-weight: bolder;
 	font-size: 20pt;
 	padding: 10px;
 	padding-left: 15px;
@@ -90,6 +91,8 @@ div.nav-bar div.a-wrapper {
 }
 
 div.nav-bar div.a-wrapper a {
+	font-family: 'Roboto';
+	font-weight: bolder;
 	font-size: 18pt;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -133,6 +136,7 @@ div.mobile-a-wrapper {
 }
 
 div.mobile-a-wrapper a {
+	font-family: 'Open Sans';
 	display: inline-block;
 	width: 100%;
 	color: white;
