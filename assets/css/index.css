@@ -73,9 +73,20 @@ div.about-block p {
 	padding-top: 0;
 }
 
-/*
-	TODO: Mobile compatability
-*/
+@media screen and (max-width: 600px) {
+	div.about-block h3 {
+		font-size: 20pt;
+
+		padding: 25px;
+		padding-bottom: 5px;
+	}
+
+	div.about-block p {
+		font-size: 15pt;
+		padding: 25px;
+		padding-top: 0;
+	}
+}
 
 /*
 	Contact block styling
@@ -160,4 +171,29 @@ button#contactSubmitButton {
 	font-family: 'Open Sans';
 	display: block;
 	
+}
+
+div.mobile-form {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	div.contact-block h3 {
+		font-size: 20pt;
+		padding: 20px;
+		padding-bottom: 5px;
+	}
+
+	div.contact-block p {
+		font-size: 15pt;
+		padding-top: 0;
+	}
+
+	div.contact-block div.inputs, div.contact-block div.labels {
+		display: none;
+	}
+
+	div.contact-block div.mobile-form {
+		display: block;
+	}
 }

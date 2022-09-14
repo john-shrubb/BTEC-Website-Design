@@ -79,13 +79,24 @@
 				<div class="labels">
 					<label for="yourname" >Your name</label>
 					<label for="youremail">Your email</label>
-					<label for="messagecontent">Your message</label>
+					<label for="yourmessage">Your message</label>
 				</div>
 
 				<div class="inputs">
 					<input type="text" name="Your Name"    id="yourname"       placeholder="John Smith"             />
 					<input type="text" name="Your Email"   id="youremail"      placeholder="john.smith@example.com" />
-					<textarea          name="Your Message" id="messagecontent" placeholder="What's on your mind?"   cols="40" rows="9"></textarea>
+					<textarea          name="Your Message" id="yourmessage" placeholder="What's on your mind?"   cols="40" rows="9"></textarea>
+				</div>
+
+				<div class="mobile-form">
+					<label for="yournamem">Your name</label><br>
+					<input type="text" name="Your Name" id="yournamem" placeholder="John Smith"><br>
+
+					<label for="youremailm">Your email</label><br>
+					<input type="text" name="Your Email" id="youremailm" placeholder="john.smith@example.com"><br>
+
+					<label for="messagecontentm">Your message</label><br>
+					<textarea name="Your Message" id="yourmessagem" cols="30" rows="10" placeholder="What's on your mind?"></textarea>
 				</div>
 				<button id="contactSubmitButton" onclick="clearForm();">Submit</button>
 			</form>
