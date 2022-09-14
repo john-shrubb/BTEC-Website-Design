@@ -30,3 +30,17 @@ div.welcome-block p {
 	padding-top: 0;
 	text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+	div.welcome-block h1 {
+		font-size: 30pt;
+		padding: 60px;
+		padding-bottom: 5px;
+	}
+
+	div.welcome-block p {
+		font-size: 20pt;
+		padding: 60px;
+		padding-top: 0;
+	}
+}
