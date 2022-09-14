@@ -2,3 +2,31 @@
 	Stylesheet for index.html specific elements such as the welcome block.
 */
 
+div.welcome-block {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+div.welcome-block h1 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 40pt;
+
+	padding: 100px;
+	padding-top: 120px;
+	padding-bottom: 5px;
+	text-align: right;
+}
+
+div.welcome-block p {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	font-size: 25pt;
+
+	padding: 100px;
+	padding-bottom: 120px;
+	padding-top: 0;
+	text-align: right;
+}
