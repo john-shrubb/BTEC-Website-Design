@@ -177,7 +177,7 @@ div.mobile-form {
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
 	div.contact-block h3 {
 		font-size: 20pt;
 		padding: 20px;
