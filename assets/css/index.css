@@ -152,3 +152,12 @@ div.contact-block form textarea {
 	resize: none;
 	border-radius: 0;
 }
+
+button#contactSubmitButton {
+	background: #355E3B;
+	color: white;
+	padding: 10px;
+	font-family: 'Open Sans';
+	display: block;
+	
+}
