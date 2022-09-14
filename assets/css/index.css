@@ -72,3 +72,83 @@ div.about-block p {
 	padding: 30px;
 	padding-top: 0;
 }
+
+/*
+	TODO: Mobile compatability
+*/
+
+/*
+	Contact block styling
+*/
+
+div.contact-block {
+	background: lightgray;
+	width: 100%;
+}
+
+div.contact-block h3 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 30pt;
+
+	padding: 30px;
+	padding-bottom: 5px;
+}
+
+div.contact-block p {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	font-size: 18pt;
+
+	padding: 30px;
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+div.contact-block form {
+	padding: 30px;
+	padding-top: 0;
+
+}
+
+div.contact-block form .labels {
+	display: inline-flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+div.contact-block form .labels label {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	font-size: 15pt;
+	
+	padding: 3px;
+	margin: 5px;
+	line-height: 43px;
+	flex-shrink: 1;
+}
+
+div.contact-block form .inputs {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+div.contact-block form input[type="text"] {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	font-size: 15pt;
+	border: 3px solid black;
+	padding: 5px;
+	margin: 5px;
+}
+
+div.contact-block form textarea {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	font-size: 15pt;
+	border: 3px solid black;
+	padding: 5px;
+	margin: 5px;
+	resize: none;
+	border-radius: 0;
+}

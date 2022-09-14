@@ -72,11 +72,22 @@
 
 		<div class="contact-block">
 			<h3>Contact Us</h3>
-			<p>Visit <a href="./pages/about.html">the booking page</a> if you would like to book a visit.<br>Otherwise fill out the form below and we will get right back to you.</p>
-			<form action="#">
-				<label for="youremail">Your Email Address</label><input type="text" name="Your Email" id="youremail" placeholder="john.smith@example.com">
-				<label for="yourname">Your Name</label><input type="text" name="Your Name" id="yourname" placeholder="John Smith">
-				<label for="messagecontent">Your Message</label><textarea name="" id="messagecontent" cols="30" rows="10" placeholder="What's on your mind?"></textarea>
+			<p>Visit <a href="./pages/about.html">the booking page</a> if you would like to book a visit.
+				<br>
+				Otherwise, fill out the form below and we will get right back to you.</p>
+			<form onsubmit="event.preventDefault();">
+				<div class="labels">
+					<label for="yourname" >Your name</label>
+					<label for="youremail">Your email</label>
+					<label for="messagecontent">Your message</label>
+				</div>
+
+				<div class="inputs">
+					<input type="text" name="Your Name"    id="yourname"       placeholder="John Smith"             />
+					<input type="text" name="Your Email"   id="youremail"      placeholder="john.smith@example.com" />
+					<textarea          name="Your Message" id="messagecontent" placeholder="What's on your mind?"   cols="40" rows="9"></textarea>
+				</div>
+				<button id="contactSubmitButton" onclick="clearForm();">Submit</button>
 			</form>
 		</div>
 
@@ -87,5 +98,6 @@
 	<script src="./assets/js/script.js"></script>
 	<script src="./assets/js/hammenu.js"></script>
 	<script src="./assets/js/welcome-block.js"></script>
+	<script src="./assets/js/contactus.js"></script>
 </body>
 </html>
