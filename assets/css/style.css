@@ -46,18 +46,25 @@ body {
 }
 
 /*
+	Fixed items wrapper
+*/
+
+div.fixed-wrapper {
+	position: fixed;
+	width: 100%;
+}
+
+/*
 	Navigation bar
 */
 
 div.nav-bar {
 	background-color: #355E3B;
 	width: 100%;
-	position: fixed;
 	
 	display: flex;
 	flex-direction: row;
 	color: white;
-	float: left;
 }
 
 div.nav-bar > a {
@@ -117,7 +124,22 @@ div.nav-bar button img {
 	Actual hamburger menu
 */
 
+div.mobile-a-wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
 
+div.mobile-a-wrapper a {
+	display: inline-block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	font-size: 20pt;
+	padding: 10px;
+	background: #355E3B;
+
+}
 
 /*
 	WELCOME BLOCK
