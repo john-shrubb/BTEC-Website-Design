@@ -1,3 +1,5 @@
+'use strict';
+
 const contactSubmitButton = document.querySelector('button#contactSubmitButton');
 
 const clearForm = () => {

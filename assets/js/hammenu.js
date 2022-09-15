@@ -1,3 +1,5 @@
+'use strict';
+
 const hamMenuButton = document.getElementById('nav-ham-menu');
 const hamMenu = document.getElementsByClassName('mobile-a-wrapper')[0];
 

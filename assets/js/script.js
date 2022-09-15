@@ -1,3 +1,5 @@
+'use strict';
+
 // Dynamically adjust rest of page for navigation bar's height.
 
 window.onload = () => {

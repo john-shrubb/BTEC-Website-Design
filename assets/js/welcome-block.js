@@ -1,3 +1,5 @@
+'use strict';
+
 // This script adds changing background pictures on the div.welcome-block element in ../../index.html
 // Should not be imported into pages other than index.html.
 
