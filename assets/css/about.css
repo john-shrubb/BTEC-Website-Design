@@ -1,0 +1,19 @@
+/*
+	CSS file for content specific to about.html
+*/
+
+/*
+	Videos block
+*/
+
+div.videos-block {
+	width: 100%;
+	background: #355E3B;
+	color: white;
+}
+
+div.videos-block h3 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 30pt;
+}
