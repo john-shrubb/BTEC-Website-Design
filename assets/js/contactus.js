@@ -18,7 +18,7 @@ const clearForm = () => {
 // Mirror mobile form and desktop form
 
 window.addEventListener('keypress', () => {
-	if (window.innerWidth > 1200) {
+	if (window.innerWidth > 800) {
 		document.querySelector('#yournamem').value = document.querySelector('#yourname').value;
 		document.querySelector('#youremailm').value = document.querySelector('#youremail').value;
 		document.querySelector('#yourmessagem').value = document.querySelector('#yourmessage').value;
