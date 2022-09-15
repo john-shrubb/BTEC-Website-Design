@@ -19,7 +19,7 @@ picturesToCyclethrough.forEach(preloadImage);
 // Set welcome block background to index 0 in pictures array.
 
 const welcomeBlock = document.getElementsByClassName('welcome-block')[0];
-welcomeBlock.style.backgroundImage = 'url(\'' + picturesToCyclethrough[0] + '\')';
+welcomeBlock.style.background = 'url(\'' + picturesToCyclethrough[0] + '\'), rgba(0,0,0,0.5)';
 
 setInterval(() => {
 	currentPictureIndex++;
@@ -29,5 +29,5 @@ setInterval(() => {
 	}
 
 	// e.g url('./assets/images/welcome-block-1.jpg')
-	welcomeBlock.style.backgroundImage = `url('${picturesToCyclethrough[currentPictureIndex]}')`;
+	welcomeBlock.style.background = `url('${picturesToCyclethrough[currentPictureIndex]}'), rgba(0,0,0,0.1)`;
 }, 10000);

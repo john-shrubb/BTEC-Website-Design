@@ -170,12 +170,17 @@ div.mobile-a-wrapper a:hover {
 div.footer {
 	background: #070707;
 	color: #ffffff;
-	font-family: 'Open Sans';
-	font-weight: bold;
+	font-family: 'Roboto';
 }
 
 div.footer p {
 	font-family: inherit;
+	font-weight: bolder;
 	font-size: 15pt;
 	padding: 10px;
+}
+
+div.footer span {
+	font-family: 'Open Sans';
+	font-weight: lighter;
 }

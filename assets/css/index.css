@@ -4,8 +4,9 @@
 
 div.welcome-block {
 	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-blend-mode: overlay;
 	color: white;
 }
 
