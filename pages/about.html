@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Ben and Jerrys Garden Maintenance</title>
+
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/cssreset.css">
+</head>
+<body>
+	<div class="content-wrapper">
+		<!--
+			Everything had to be placed in a fixed container to avoid overlap
+		-->
+		<div class="fixed-wrapper">
+			<div class="nav-bar">
+				<a href="../index.html">
+					<h3>Ben and Jerry</h3>
+				</a>
+	
+				<div class="a-wrapper">
+					<a href="#">About</a>
+					<a href="./book.html">Book</a>
+				</div>
+	
+				<!--
+					Responsive links for mobile devices
+				-->
+	
+				<button id="nav-ham-menu"><img src="../assets/images/ham-menu.png" alt="Access links to other pages" /></button>
+			</div>
+	
+			<!--
+				.mobile-a-wrapper is still a part of the navigation bar however it had to be seperated for compatability reasons.
+			-->
+	
+			<div class="mobile-a-wrapper" style="display:none;">
+				<a href="#">About</a>
+				<a href="../pages/book.html">Book</a>
+			</div>
+		</div>
+
+		<!--
+			Now for the rest of the page
+		-->
+
+		<div class="welcome-block"></div> <!--Empty welcome block for script.js file to work properly.-->
+
+		<script src="../assets/js/script.js"></script>
+		<script src="../assets/js/hammenu.js"></script>
+	</div>
+</body>
+</html>
