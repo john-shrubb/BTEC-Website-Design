@@ -29,5 +29,5 @@ setInterval(() => {
 	}
 
 	// e.g url('./assets/images/welcome-block-1.jpg')
-	welcomeBlock.style.background = `url('${picturesToCyclethrough[currentPictureIndex]}'), rgba(0,0,0,0.1)`;
+	welcomeBlock.style.background = `url('${picturesToCyclethrough[currentPictureIndex]}'), rgba(0,0,0,0.5)`;
 }, 10000);
