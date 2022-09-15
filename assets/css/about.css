@@ -3,6 +3,32 @@
 */
 
 /*
+	Top block
+*/
+
+div.top-block {
+	width: 100%;
+	background: white;
+}
+
+div.top-block h1 {
+	font-family: 'Poppins';
+	font-size: 40pt;
+	padding: 40px;
+	padding-top: 80px;
+	padding-bottom: 5px;
+}
+
+div.top-block p {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 25pt;
+	padding: 40px;
+	padding-bottom: 80px;
+	padding-top: 0;
+}
+
+/*
 	Videos block
 */
 
@@ -10,10 +36,29 @@ div.videos-block {
 	width: 100%;
 	background: #355E3B;
 	color: white;
+	position: relative;
 }
 
 div.videos-block h3 {
 	font-family: 'Roboto';
 	font-weight: bold;
 	font-size: 30pt;
+
+	padding: 30px;
+	padding-bottom: 5px;
+}
+
+div.videos-block p {
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	font-size: 20pt;
+
+	padding: 30px;
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+div.videos-block iframe {
+	padding: 30px;
+	width: calc(33% - 60px);
 }
