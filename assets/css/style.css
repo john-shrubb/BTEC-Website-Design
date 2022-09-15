@@ -5,13 +5,19 @@
 
 @font-face {
 	font-family: 'Poppins';
-	src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+
+	src: url('../fonts/poppins/poppins-medium.ttf') format('truetype');
+	src: url('../fonts/poppins/poppins-medium-webfont.woff2') format('woff2');
+	src: url('../fonts/poppins/poppins-medium-webfont.woff') format('woff');
+
 	text-rendering: optimizeLegibility;
 }
 
 @font-face {
 	font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Var.ttf') format('truetype');
+	src: url('../fonts/open-sans/opensans-var.ttf') format('truetype');
+	src: url('../fonts/open-sans/opensans-var-webfont.woff2') format('woff2');
+	src: url('../fonts/open-sans/opensans-var-webfont.woff') format('woff');
 	text-rendering: optimizeLegibility;
 }
 
@@ -22,18 +28,13 @@
 
 @font-face {
 	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+
+	src: url('../fonts/roboto/roboto-medium.ttf') format('truetype');
+	src: url('../fonts/roboto/roboto-medium-webfont.woff2') format('woff2');
+	src: url('../fonts/roboto/roboto-medium-webfont.woff') format('woff');
 
 	text-rendering: optimizeLegibility;
 	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Light.ttf') format('truetype');
-
-	text-rendering: optimizeLegibility;
-	font-weight: lighter;
 }
 
 /*
