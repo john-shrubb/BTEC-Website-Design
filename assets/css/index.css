@@ -11,7 +11,7 @@ div.welcome-block {
 
 div.welcome-block h1 {
 	font-family: 'Poppins';
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 40pt;
 
 	padding: 100px;

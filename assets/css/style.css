@@ -74,7 +74,7 @@ div.nav-bar {
 
 div.nav-bar > a {
 	font-family: 'Roboto';
-	font-weight: bolder;
+	/* font-weight: bolder; */
 	font-size: 23pt;
 	padding: 10px;
 	padding-left: 15px;
@@ -97,7 +97,7 @@ div.nav-bar div.a-wrapper {
 
 div.nav-bar div.a-wrapper a {
 	font-family: 'Roboto';
-	font-weight: bolder;
+	/* font-weight: bolder; */
 	font-size: 20pt;
 	margin-top: auto;
 	margin-bottom: auto;
