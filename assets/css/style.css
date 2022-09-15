@@ -157,3 +157,20 @@ div.mobile-a-wrapper a:hover {
 	background: #244128;
 
 }
+
+/*
+	Simple footer at the bottom of the page
+*/
+
+div.footer {
+	background: #070707;
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-weight: bold;
+}
+
+div.footer p {
+	font-family: inherit;
+	font-size: 15pt;
+	padding: 10px;
+}
