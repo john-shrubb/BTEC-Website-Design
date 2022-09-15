@@ -57,7 +57,6 @@ div.about-block {
 
 div.about-block h3 {
 	font-family: 'Roboto';
-	font-weight: bold;
 	font-size: 30pt;
 
 	padding: 30px;
@@ -67,7 +66,6 @@ div.about-block h3 {
 div.about-block p {
 	font-family: 'Open Sans';
 	font-size: 18pt;
-	font-weight: bolder;
 	
 	padding: 30px;
 	padding-top: 0;
@@ -99,7 +97,6 @@ div.contact-block {
 
 div.contact-block h3 {
 	font-family: 'Roboto';
-	font-weight: bold;
 	font-size: 30pt;
 
 	padding: 30px;
@@ -108,7 +105,6 @@ div.contact-block h3 {
 
 div.contact-block p {
 	font-family: 'Open Sans';
-	font-weight: bolder;
 	font-size: 18pt;
 
 	padding: 30px;
@@ -130,7 +126,6 @@ div.contact-block form .labels {
 
 div.contact-block form .labels label {
 	font-family: 'Open Sans';
-	font-weight: bolder;
 	font-size: 15pt;
 	
 	padding: 3px;
@@ -146,7 +141,6 @@ div.contact-block form .inputs {
 
 div.contact-block form input[type="text"] {
 	font-family: 'Open Sans';
-	font-weight: bolder;
 	font-size: 15pt;
 	border: 3px solid black;
 	padding: 5px;
@@ -155,7 +149,6 @@ div.contact-block form input[type="text"] {
 
 div.contact-block form textarea {
 	font-family: 'Open Sans';
-	font-weight: bolder;
 	font-size: 15pt;
 	border: 3px solid black;
 	padding: 5px;
