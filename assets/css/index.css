@@ -161,7 +161,7 @@ div.contact-block form textarea {
 	border-radius: 0;
 }
 
-div.contact-block form textarea:hover, div.contact-block form input[type="text"]:hover {
+div.contact-block form textarea:focus, div.contact-block form input[type="text"]:focus {
 	outline: none;
 }
 
