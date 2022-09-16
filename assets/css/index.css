@@ -143,7 +143,7 @@ div.contact-block form .inputs {
 div.contact-block form input[type="text"] {
 	font-family: 'Open Sans';
 	font-size: 15pt;
-	border: 3px solid black;
+	border: 2px solid black;
 	border-radius: 0;
 	padding: 5px;
 	margin: 5px;
@@ -152,7 +152,7 @@ div.contact-block form input[type="text"] {
 div.contact-block form textarea {
 	font-family: 'Open Sans';
 	font-size: 15pt;
-	border: 3px solid black;
+	border: 2px solid black;
 	padding: 5px;
 	margin: 5px;
 	resize: none;
