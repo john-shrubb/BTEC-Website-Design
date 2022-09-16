@@ -129,10 +129,8 @@ div.contact-block form .labels label {
 	font-family: 'Open Sans';
 	font-size: 15pt;
 	
-	padding: 3px;
+	padding: 7px;
 	margin: 5px;
-	line-height: 43px;
-	flex-shrink: 1;
 }
 
 div.contact-block form .inputs {
@@ -163,6 +161,7 @@ div.contact-block form textarea {
 
 div.contact-block form textarea:focus, div.contact-block form input[type="text"]:focus {
 	outline: none;
+	border-color: #355E3B;
 }
 
 button#contactSubmitButton {
