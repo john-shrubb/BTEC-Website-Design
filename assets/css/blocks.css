@@ -3,31 +3,53 @@
 */
 
 /*
-	Gray blocks such as the pay us a visit block and contact us block
+	General standard blocks
 */
 
-.gray-block-h3 {
+.block-h3 {
 	width: 100%;
-	background: lightgray;
 }
 
-.gray-block-h3 h3 {
+.block-h3 .content-wrapper {
+	padding: 30px;
+}
+
+.block-h3 .content-wrapper h3 {
 	font-family: 'Roboto';
 	font-size: 30pt;
-	padding: 30px;
-	padding-bottom: 5px;
 }
 
-.gray-block-h3 p {
+.block-h3 .content-wrapper p {
 	font-family: 'Open Sans';
 	font-size: 20pt;
-
-	padding: 30px;
-	padding-top: 0;
-	padding-bottom: 5px;
+	font-weight: lighter;
 }
 
 /*
-	Green Blocks such as the about us block
+	Colours of block
 */
 
+.block-h3.green-block {
+	background: #355E3B;
+	color: white;
+}
+
+.block-h3.gray-block {
+	background: lightgray;
+}
+
+/*
+	Inputs and stuff
+*/
+
+input[type="text"] {
+	font-size: 15pt;
+	font-family: 'Open Sans';
+
+	padding: 5px;
+	margin: 5px;
+
+	border: black 2px solid;
+	border-radius: 0;
+	outline: none;
+}
