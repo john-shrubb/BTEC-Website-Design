@@ -47,47 +47,6 @@ div.welcome-block p {
 }
 
 /*
-	About block
-*/
-
-div.about-block {
-	background: #355E3B;
-	width: 100%;
-	color: white;
-}
-
-div.about-block h3 {
-	font-family: 'Roboto';
-	font-size: 30pt;
-
-	padding: 30px;
-	padding-bottom: 5px;
-}
-
-div.about-block p {
-	font-family: 'Open Sans';
-	font-size: 18pt;
-	
-	padding: 30px;
-	padding-top: 0;
-}
-
-@media screen and (max-width: 600px) {
-	div.about-block h3 {
-		font-size: 20pt;
-
-		padding: 25px;
-		padding-bottom: 5px;
-	}
-
-	div.about-block p {
-		font-size: 15pt;
-		padding: 25px;
-		padding-top: 0;
-	}
-}
-
-/*
 	Contact block styling
 */
 
