@@ -21,7 +21,7 @@ picturesToCyclethrough.forEach(preloadImage);
 const welcomeBlock = document.getElementsByClassName('welcome-block')[0];
 welcomeBlock.style.background = 'url(\'' + picturesToCyclethrough[0] + '\'), rgba(0,0,0,0.5)';
 
-setInterval(() => {
+setInterval(function() {
 	currentPictureIndex++;
 
 	if (currentPictureIndex === picturesToCyclethrough.length) {

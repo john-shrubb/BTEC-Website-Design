@@ -2,7 +2,7 @@
 
 const contactSubmitButton = document.querySelector('button#contactSubmitButton');
 
-const clearForm = () => {
+const clearForm = function() {
 	const inputs = document.querySelector('form>div.inputs').children;
 	const inputsMobile = document.querySelector('.mobile-form').children;
 
@@ -17,7 +17,7 @@ const clearForm = () => {
 
 // Mirror mobile form and desktop form
 
-window.addEventListener('keypress', () => {
+window.addEventListener('keypress', function() {
 	if (window.innerWidth > 800) {
 		document.querySelector('#yournamem').value = document.querySelector('#yourname').value;
 		document.querySelector('#youremailm').value = document.querySelector('#youremail').value;

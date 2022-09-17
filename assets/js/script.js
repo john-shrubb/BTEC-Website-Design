@@ -2,7 +2,7 @@
 
 // Dynamically adjust rest of page for navigation bar's height.
 
-window.onload = () => {
+window.onload = function() {
 	window.onresize();
 	// navHeight is the height of the navigation bar
 
@@ -20,7 +20,7 @@ window.onload = () => {
 	document.getElementById('nav-ham-menu').style.height = navHeight + 'px';
 };
 
-window.onresize = () => {
+window.onresize = function() {
 	const height = window.innerHeight;
 	const width = window.innerWidth;
 

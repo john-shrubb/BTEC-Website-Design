@@ -21,7 +21,7 @@ function hamMenuOpen() {
 	}
 }
 
-hamMenuButton.addEventListener('click', () => {
+hamMenuButton.addEventListener('click', function() {
 	if (hamMenuOpen()) {
 		closeHamMenu();
 	} else {
@@ -29,7 +29,7 @@ hamMenuButton.addEventListener('click', () => {
 	}
 });
 
-window.addEventListener('resize', () => {
+window.addEventListener('resize', function() {
 	if (window.innerWidth >= 600 && hamMenuOpen()) {
 		closeHamMenu();
 	}
