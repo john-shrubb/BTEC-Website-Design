@@ -8,3 +8,8 @@ This document contains credits for all services used throughout the creation of 
 - [Google Fonts](https://fonts.google.com) as all non built in fonts were sourced from Google Fonts.
 - [icons8.com](https://icons8.com) for hamburger menu icon
 - [stackoverflow.com](https://stackoverflow.com) for help with debugging and troubleshooting
+
+## People
+
+- Melissa Cetinkaya - Helped test Safari compatibility & responsiveness
+- Lyvia Pedro - Help with testing Android responsiveness
