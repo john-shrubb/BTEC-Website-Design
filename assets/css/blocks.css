@@ -3,7 +3,37 @@
 */
 
 /*
-	General standard blocks
+	General blocks
+*/
+
+/*
+	Blocks with H1 headers. Something like on the index.html page
+*/
+
+.block-h1 {
+	width: 100%;
+}
+
+.block-h1 .content-wrapper {
+	padding: 70px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.block-h1 .content-wrapper h1 {
+	font-family: 'Poppins';
+	font-weight: bolder;
+	font-size: 43pt;
+}
+
+.block-h1 .content-wrapper p {
+	font-family: 'Roboto';
+	font-weight: lighter;
+	font-size: 25pt;
+}
+
+/*
+	Blocks with H3 headers. I'll call them sub-blocks
 */
 
 .block-h3 {
@@ -26,15 +56,35 @@
 }
 
 /*
+	Block mobile responsiveness
+*/
+
+@media screen and (max-width: 600px) {
+	/* H3 Blocks */
+
+	.block-h3 .content-wrapper {
+		padding: 20px;
+	}
+
+	.block-h3 .content-wrapper h3 {
+		font-size: 25pt;
+	}
+
+	.block-h3 .content-wrapper p {
+		font-family: 17pt;
+	}
+}
+
+/*
 	Colours of block
 */
 
-.block-h3.green-block {
+.green-block {
 	background: #355E3B;
 	color: white;
 }
 
-.block-h3.gray-block {
+.gray-block {
 	background: lightgray;
 }
 
