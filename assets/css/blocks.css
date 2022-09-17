@@ -1,3 +1,5 @@
+@import url('fonts.css');
+
 /*
 	The purpose of this file is to standardise and clean up. Reducing file sizes and potentially improving performance
 */
@@ -15,19 +17,18 @@
 }
 
 .block-h1 .content-wrapper {
-	padding: 70px;
+	padding: 100px;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
 
 .block-h1 .content-wrapper h1 {
 	font-family: 'Poppins';
-	font-weight: bolder;
 	font-size: 43pt;
 }
 
 .block-h1 .content-wrapper p {
-	font-family: 'Roboto';
+	font-family: 'Open Sans';
 	font-weight: lighter;
 	font-size: 25pt;
 }
