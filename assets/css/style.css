@@ -1,41 +1,6 @@
-/*
-	Font faces
-	(Credit to Google)
-*/
+/* Stylesheet imports */
 
-@font-face {
-	font-family: 'Poppins';
-
-	src: url('../fonts/poppins/poppins-medium.ttf') format('truetype');
-	src: url('../fonts/poppins/poppins-medium-webfont.woff2') format('woff2');
-	src: url('../fonts/poppins/poppins-medium-webfont.woff') format('woff');
-
-	text-rendering: optimizeLegibility;
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/open-sans/opensans-var.ttf') format('truetype');
-	src: url('../fonts/open-sans/opensans-var-webfont.woff2') format('woff2');
-	src: url('../fonts/open-sans/opensans-var-webfont.woff') format('woff');
-	text-rendering: optimizeLegibility;
-}
-
-/*
-	The 'font-weight' property has a lack of support in IE 8 and below.
-	Internet Explorer is now a retired browser. It is insecure and should not be used in modern organisations due to the lack of security updates.
-*/
-
-@font-face {
-	font-family: 'Roboto';
-
-	src: url('../fonts/roboto/roboto-medium.ttf') format('truetype');
-	src: url('../fonts/roboto/roboto-medium-webfont.woff2') format('woff2');
-	src: url('../fonts/roboto/roboto-medium-webfont.woff') format('woff');
-
-	text-rendering: optimizeLegibility;
-	font-weight: normal;
-}
+@import url('fonts.css');
 
 /*
 	NOTE: ACCENT GREEN HEX CODE IS #355E3B
