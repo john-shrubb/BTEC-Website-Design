@@ -3,7 +3,7 @@
 // This script adds changing background pictures on the div.welcome-block element in ../../index.html
 // Should not be imported into pages other than index.html.
 
-const picturesToCyclethrough = ['./assets/images/welcome-block-1.jpg', './assets/images/welcome-block-2.webp'];
+const picturesToCyclethrough = ['./assets/images/welcome-block-1.jpg', './assets/images/welcome-block-2.jpg'];
 let currentPictureIndex = 0;
 
 // Preload all images
