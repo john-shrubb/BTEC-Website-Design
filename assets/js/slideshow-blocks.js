@@ -1,6 +1,6 @@
 'use strict';
 
-let slideshowBlocks = Array.from(document.getElementsByClassName('slideshow-block'));
+const slideshowBlocks = Array.from(document.getElementsByClassName('slideshow-block'));
 
 for (let x in slideshowBlocks) {
 	slideshowBlocks[x].currentSlideshowIndex = 0;
@@ -56,4 +56,29 @@ function getElementInArrayWtihClass(array, className) {
 	});
 
 	return foundElement;
+}
+
+/**
+ * Changes all slideshow images on page by one.
+ * @returns true or throws an error if there is a problem.
+ */
+
+ function moveSlideshowImagesUp() {
+	slideshowBlocks.forEach(function (value, index) {
+		const images = Array.from(getElementInArrayWtihClass(value.children, 'slideshow-images').children);
+
+		for (let index in images) {
+			images[index] = images[index].src;
+		}
+
+		const slideshowIndex = value.currentSlideshowIndex;
+
+		value.style.background = 'url(' + String(images[slideshowIndex]) + ') rgba(0, 0, 0, 0.5)';
+
+		value.currentSlideshowIndex++;
+		
+		if (value.currentSlideshowIndex === images.length) {
+			value.currentSlideshowIndex = 0;
+		}
+	});
 }
