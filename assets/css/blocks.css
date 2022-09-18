@@ -210,3 +210,32 @@ form button {
 		width: 90%;
 	}
 }
+
+/*
+	Videos container for embedded content like YouTube
+*/
+
+.videos-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.videos-wrapper iframe {
+	width: 30vw;
+	height: calc(30vw / 1.77);
+	margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+	.videos-wrapper {
+		flex-direction: column;
+	}
+
+	.videos-wrapper iframe {
+		width: 90vw;
+		height: calc(90vw / 1.77);
+		margin: auto;
+		padding-top: 30px;
+	}
+}
