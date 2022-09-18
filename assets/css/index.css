@@ -72,19 +72,19 @@ div.contact-block p {
 	padding-bottom: 5px;
 }
 
-div.contact-block form {
+form {
 	padding: 30px;
 	padding-top: 0;
 
 }
 
-div.contact-block form .labels {
+form .labels {
 	display: inline-flex;
 	flex-direction: column;
 	width: 300px;
 }
 
-div.contact-block form .labels label {
+form .labels label {
 	font-family: 'Open Sans';
 	font-size: 15pt;
 	
@@ -92,12 +92,12 @@ div.contact-block form .labels label {
 	margin: 5px;
 }
 
-div.contact-block form .inputs {
+form .inputs {
 	display: inline-flex;
 	flex-direction: column;
 }
 
-div.contact-block form input[type="text"] {
+form input[type="text"] {
 	font-family: 'Open Sans';
 	font-size: 15pt;
 	border: 2px solid black;
@@ -107,7 +107,7 @@ div.contact-block form input[type="text"] {
 	margin: 5px;
 }
 
-div.contact-block form textarea {
+form textarea {
 	font-family: 'Open Sans';
 	font-size: 15pt;
 	border: 2px solid black;
@@ -118,7 +118,7 @@ div.contact-block form textarea {
 	border-radius: 0;
 }
 
-div.contact-block form textarea:focus, div.contact-block form input[type="text"]:focus {
+form textarea:focus, div.contact-block form input[type="text"]:focus {
 	outline: none;
 	border-color: #355E3B;
 }
@@ -137,33 +137,22 @@ div.mobile-form {
 }
 
 @media screen and (max-width: 800px) {
-	div.contact-block h3 {
-		font-size: 20pt;
-		padding: 20px;
-		padding-bottom: 5px;
-	}
-
-	div.contact-block p {
-		font-size: 15pt;
-		padding-top: 0;
-	}
-
-	div.contact-block div.inputs, div.contact-block div.labels {
+	div.inputs, div.labels {
 		display: none;
 	}
 
-	div.contact-block div.mobile-form {
+	div.mobile-form {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-	div.contact-block div.mobile-form input[type="text"] {
+	div.mobile-form input[type="text"] {
 		display: inline-block;
 		width: 90%;
 	}
 
-	div.contact-block div.mobile-form textarea {
+	div.mobile-form textarea {
 		display: inline-block;
 		width: 90%;
 	}
