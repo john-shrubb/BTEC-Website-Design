@@ -85,11 +85,12 @@
 					Otherwise, fill out the form below and we will get right back to you.</p>
 				<form onsubmit="event.preventDefault();">
 					<label for="yourname" >Your name</label>
-					<label for="youremail">Your email</label>
-					<label for="yourmessage">Your message</label>
-
 					<input type="text" name="Your Name"    id="yourname"       placeholder="John Smith"             />
+
+					<label for="youremail">Your email</label>
 					<input type="text" name="Your Email"   id="youremail"      placeholder="john.smith@example.com" />
+
+					<label for="yourmessage">Your message</label>
 					<textarea          name="Your Message" id="yourmessage" placeholder="What's on your mind?"   cols="40" rows="9"></textarea>
 
 					<button id="contactSubmitButton" onclick="clearForm();">Submit</button>
