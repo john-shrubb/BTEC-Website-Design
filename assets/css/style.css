@@ -21,6 +21,7 @@ body {
 
 div.fixed-wrapper {
 	position: fixed;
+	z-index: 1;
 	width: 100%;
 }
 
