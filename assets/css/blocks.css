@@ -18,8 +18,8 @@
 
 .block-h1 .content-wrapper {
 	padding: 100px;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 140px;
+	padding-bottom: 140px;
 }
 
 .block-h1 .content-wrapper h1 {
@@ -95,6 +95,9 @@
 
 .slideshow-block {
 	width: 100%;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position-y: 30% !important;
 }
 
 .slideshow-block .slideshow-images {
@@ -103,6 +106,7 @@
 
 .slideshow-block.slideshow-dark-overlay {
 	background-blend-mode: overlay;
+	color: white;
 }
 
 /*
