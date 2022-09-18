@@ -15,6 +15,15 @@ for (let x in slideshowBlocks) {
  */
 
 function getElementInArrayWtihClass(array, className) {
+	// Ensure both arguments are passed. Throw error if not enough arguments are passed or too many are passed.
+
+	if (arguments.length !== 2) {
+		throw Error('Either too many or too little arguments passed.');
+	}
+
+	// Throw error if className is not a string
+
+	if (typeof className !== 'string') throw TypeError('Passed ' + typeof className + ' as argument. Should have passsed string.')
 	// Ensure if a HTMLCollection is passed in it is converted to an array to avoid headache
 
 	array = Array.from(array);
@@ -26,6 +35,10 @@ function getElementInArrayWtihClass(array, className) {
 	// For each element in the array
 
 	array.forEach(function(value) {
+		if (typeof value !== 'object') {
+			return;
+		}
+
 		// Array of each individual class name in element
 
 		const classnames = value.className.split(' ');
