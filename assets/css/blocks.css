@@ -90,6 +90,22 @@
 }
 
 /*
+	Slideshow block
+*/
+
+.slideshow-block {
+	width: 100%;
+}
+
+.slideshow-block .slideshow-images {
+	display: none; /* Slideshow images purely provide a reference for which images the JS should transition between. */
+}
+
+.slideshow-block.slideshow-dark-overlay {
+	background-blend-mode: overlay;
+}
+
+/*
 	Inputs and stuff
 */
 
