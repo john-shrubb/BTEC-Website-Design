@@ -3,50 +3,6 @@
 */
 
 /*
-	Top block
-*/
-
-div.top-block {
-	width: 100%;
-	background: white;
-}
-
-div.top-block h1 {
-	font-family: 'Poppins';
-	font-size: 40pt;
-	padding: 40px;
-	padding-top: 80px;
-	padding-bottom: 5px;
-}
-
-div.top-block p {
-	font-family: 'Roboto';
-	font-weight: normal;
-	font-size: 25pt;
-	padding: 40px;
-	padding-bottom: 80px;
-	padding-top: 0;
-}
-
-@media screen and (max-width: 600px) {
-	div.top-block h1 {
-		padding: 25px;
-		padding-top: 70px;
-		padding-bottom: 5px;
-
-		font-size: 30pt;
-	}
-
-	div.top-block p {
-		padding: 25px;
-		padding-bottom: 70px;
-		padding-top: 0;
-
-		font-size: 20pt;
-	}
-}
-
-/*
 	Videos block
 */
 
