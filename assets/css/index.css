@@ -2,50 +2,6 @@
 	Stylesheet for index.html specific elements such as the welcome block.
 */
 
-div.welcome-block {
-	width: 100%;
-	background-size: cover !important;
-	background-repeat: no-repeat !important;
-	background-blend-mode: overlay;
-	color: white;
-}
-
-div.welcome-block h1 {
-	font-family: 'Poppins';
-	/* font-weight: bold; */
-	font-size: 40pt;
-
-	padding: 100px;
-	padding-top: 120px;
-	padding-bottom: 5px;
-	text-align: left;
-}
-
-div.welcome-block p {
-	font-family: 'Open Sans';
-	font-weight: bolder;
-	font-size: 25pt;
-
-	padding: 100px;
-	padding-bottom: 120px;
-	padding-top: 0;
-	text-align: left;
-}
-
-@media screen and (max-width: 600px) {
-	div.welcome-block h1 {
-		font-size: 30pt;
-		padding: 60px;
-		padding-bottom: 5px;
-	}
-
-	div.welcome-block p {
-		font-size: 20pt;
-		padding: 60px;
-		padding-top: 0;
-	}
-}
-
 /*
 	Contact block styling
 */
