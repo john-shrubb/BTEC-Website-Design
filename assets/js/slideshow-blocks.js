@@ -82,3 +82,7 @@ function getElementInArrayWtihClass(array, className) {
 		}
 	});
 }
+
+setInterval(moveSlideshowImagesUp, 5000);
+
+window.addEventListener('load', moveSlideshowImagesUp);
