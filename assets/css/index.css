@@ -2,14 +2,6 @@
 	Stylesheet for index.html specific elements such as the welcome block.
 */
 
-button#contactSubmitButton {
-	background: #355E3B;
-	color: white;
-	padding: 10px;
-	font-family: 'Open Sans';
-	display: block;
-	
-}
 
 div.mobile-form {
 	display: none;
