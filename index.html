@@ -83,7 +83,7 @@
 				<p>Visit <a href="./pages/about.html">the booking page</a> if you would like to book a visit.
 					<br>
 					Otherwise, fill out the form below and we will get right back to you.</p>
-				<form onsubmit="event.preventDefault();">
+				<form onsubmit="event.preventDefault(); Array.from(this.children).forEach(function (val) {val.value = '';});">
 					<label for="yourname" >Your name</label>
 					<input type="text" name="Your Name"    id="yourname"       placeholder="John Smith"             />
 
@@ -93,7 +93,7 @@
 					<label for="yourmessage">Your message</label>
 					<textarea          name="Your Message" id="yourmessage" placeholder="What's on your mind?"   cols="40" rows="9"></textarea>
 
-					<button id="contactSubmitButton" onclick="clearForm();">Submit</button>
+					<button id="contactSubmitButton">Submit</button>
 				</form>
 			</div>
 		</div>
