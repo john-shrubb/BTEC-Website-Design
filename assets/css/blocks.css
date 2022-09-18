@@ -133,7 +133,7 @@ input[type="text"] {
 	font-size: 15pt;
 	font-family: 'Open Sans';
 
-	width: 60%;
+	width: 500px;
 	padding: 5px;
 	margin: 5px;
 
@@ -148,7 +148,7 @@ textarea {
 	font-size: 15pt;
 	font-family: 'Open Sans';
 
-	width: 60%;
+	width: 500px;
 	padding: 5px;
 	margin: 5px;
 
@@ -168,16 +168,17 @@ label {
 	font-size: 15pt;
 	font-family: 'Open Sans';
 
-	width: 30%;
+	width: 170px;
 	padding: 7px;
 	margin: 5px;
 	float: left;
 }
 
-button#contactSubmitButton {
+form button {
 	background: #355E3B;
 	color: white;
-	padding: 10px;
+	padding: 15px;
+	font-size: 17pt;
 	font-family: 'Open Sans';
 	display: block;
 }
