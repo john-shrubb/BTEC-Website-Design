@@ -61,6 +61,20 @@
 */
 
 @media screen and (max-width: 600px) {
+	/* H1 Blocks */
+
+	.block-h1 .content-wrapper {
+		padding: 40px;
+	}
+
+	.block-h1 .content-wrapper h1 {
+		font-size: 35pt;
+	}
+
+	.block-h1 .content-wrapper p {
+		font-size: 25pt;
+	}
+
 	/* H3 Blocks */
 
 	.block-h3 .content-wrapper {
@@ -110,17 +124,76 @@
 }
 
 /*
-	Inputs and stuff
+	Inputs and labels and form stuff
 */
 
 input[type="text"] {
+	display: inline-block;
+
 	font-size: 15pt;
 	font-family: 'Open Sans';
 
+	width: 60%;
 	padding: 5px;
 	margin: 5px;
 
 	border: black 2px solid;
 	border-radius: 0;
 	outline: none;
+}
+
+textarea {
+	display: inline-block;
+
+	font-size: 15pt;
+	font-family: 'Open Sans';
+
+	width: 60%;
+	padding: 5px;
+	margin: 5px;
+
+	border: black 2px solid;
+	border-radius: 0;
+	outline: none;
+}
+
+form textarea:focus, div.contact-block form input[type="text"]:focus {
+	outline: none;
+	border-color: #355E3B;
+}
+
+label {
+	display: block;
+
+	font-size: 15pt;
+	font-family: 'Open Sans';
+
+	width: 30%;
+	padding: 7px;
+	margin: 5px;
+	float: left;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 800px) {
+	form {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	label {
+		width: 90%;
+		text-align: center;
+	}
+
+	input[type="text"] {
+		width: 90%;
+	}
+
+	textarea {
+		width: 90%;
+	}
 }
