@@ -8,6 +8,7 @@ This document contains credits for all services used throughout the creation of 
 - [Google Fonts](https://fonts.google.com) as all non built in fonts were sourced from Google Fonts.
 - [icons8.com](https://icons8.com) for hamburger menu icon
 - [stackoverflow.com](https://stackoverflow.com) for help with debugging and troubleshooting
+- [Arrow Termit and Pest Control](https://www.arrowtermiteandpestcontrol.com/secret-gorgeous-garden/) for welcome block image(s)
 
 ## People
 
