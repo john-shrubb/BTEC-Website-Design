@@ -193,6 +193,10 @@ form button {
 		flex-direction: column;
 	}
 
+	form br {
+		display: none;
+	}
+
 	label {
 		width: 90%;
 		text-align: center;
