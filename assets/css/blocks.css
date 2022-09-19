@@ -11,6 +11,7 @@
 /* Massive block */
 
 .jumbo-block {
+	float: left;
 	width: 100%;
 }
 
@@ -23,6 +24,7 @@
 /* Large block */
 
 .large-block {
+	float: left;
 	width: 100%;
 }
 
@@ -35,6 +37,7 @@
 /* Medium block */
 
 .medium-block {
+	float: left;
 	width: 100%;
 }
 
@@ -47,6 +50,7 @@
 /* Small block */
 
 .small-block {
+	float: left;
 	width: 100%;
 }
 
