@@ -18,6 +18,7 @@
 	src: url('../fonts/open-sans/opensans-var.ttf') format('truetype');
 	src: url('../fonts/open-sans/opensans-var-webfont.woff2') format('woff2');
 	src: url('../fonts/open-sans/opensans-var-webfont.woff') format('woff');
+
 	text-rendering: optimizeLegibility;
 }
 
@@ -34,5 +35,4 @@
 	src: url('../fonts/roboto/roboto-medium-webfont.woff') format('woff');
 
 	text-rendering: optimizeLegibility;
-	font-weight: normal;
 }
