@@ -214,6 +214,11 @@ form button {
 	display: block;
 }
 
+.green-block form button {
+	background: lightgray;
+	color: black;
+}
+
 /* Responsiveness */
 
 @media screen and (max-width: 800px) {
