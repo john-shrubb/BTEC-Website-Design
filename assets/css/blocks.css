@@ -54,38 +54,26 @@
 	padding: 30px;
 }
 
-/*
-	Block mobile responsiveness
-*/
+/* Typography (Yeah I can use clever words) */
 
-@media screen and (max-width: 600px) {
-	/* H1 Blocks */
+h1 {
+	font-family: 'Poppins';
+	font-size: 40pt;
+}
 
-	.block-h1 .content-wrapper {
-		padding: 40px;
-	}
+h2 {
+	font-family: 'Roboto';
+	font-size: 30pt;
+}
 
-	.block-h1 .content-wrapper h1 {
-		font-size: 30pt;
-	}
+h3 {
+	font-family: 'Roboto';
+	font-size: 25pt;
+}
 
-	.block-h1 .content-wrapper p {
-		font-size: 20pt;
-	}
-
-	/* H3 Blocks */
-
-	.block-h3 .content-wrapper {
-		padding: 20px;
-	}
-
-	.block-h3 .content-wrapper h3 {
-		font-size: 22pt;
-	}
-
-	.block-h3 .content-wrapper p {
-		font-family: 15pt;
-	}
+p {
+	font-family: 'Open Sans';
+	font-size: 18pt;
 }
 
 /*
