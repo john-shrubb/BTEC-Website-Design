@@ -94,6 +94,26 @@
 	}
 }
 
+/* Stack blocks horizontally */
+
+.block-stack-horizontal {
+	display: flex;
+	flex-direction: row;
+	float: left;
+	max-width: 100%;
+	flex-wrap: nowrap;
+}
+
+.block-stack-horizontal div {
+	min-width: 0;
+}
+
+@media screen and (max-width: 800px) {
+	.block-stack-horizontal {
+		flex-direction: column;
+	}
+}
+
 /* Typography (Yeah I can use clever words) */
 
 h1 {
