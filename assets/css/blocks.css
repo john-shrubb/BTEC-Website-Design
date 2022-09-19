@@ -285,6 +285,16 @@ form button {
 	textarea {
 		width: 90%;
 	}
+
+	@media screen and (max-width: 600px) {
+		label, textarea, input[type="text"] {
+			font-size: 12pt;
+		}
+
+		form button {
+			font-size: 14pt;
+		}
+	}
 }
 
 /*
