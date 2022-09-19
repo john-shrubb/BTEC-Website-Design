@@ -74,6 +74,24 @@
 	.small-block .content-wrapper {
 		padding: 20px;
 	}
+
+	@media screen and (max-width: 400px) {
+		.jumbo-block .content-wrapper {
+			padding: 50px;
+		}
+
+		.large-block .content-wrapper {
+			padding: 35px;
+		}
+
+		.medium-block .content-wrapper {
+			padding: 22px;
+		}
+
+		.small-block .content-wrapper {
+			padding: 15px;
+		}
+	}
 }
 
 /* Typography (Yeah I can use clever words) */
@@ -122,6 +140,24 @@ p a:hover {
 
 	p {
 		font-size: 15pt;
+	}
+
+	@media screen and (max-width: 400px) {
+		h1 {
+			font-size: 25px;
+		}
+
+		h2 {
+			font-size: 20pt;
+		}
+
+		h3 {
+			font-size: 17pt;
+		}
+
+		p {
+			font-size: 12pt;
+		}
 	}
 }
 
