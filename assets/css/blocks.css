@@ -54,6 +54,24 @@
 	padding: 30px;
 }
 
+@media screen and (max-width: 600px) {
+	.jumbo-block .content-wrapper {
+		padding: 60px;
+	}
+
+	.large-block .content-wrapper {
+		padding: 40px;
+	}
+
+	.medium-block .content-wrapper {
+		padding: 30px;
+	}
+
+	.small-block .content-wrapper {
+		padding: 20px;
+	}
+}
+
 /* Typography (Yeah I can use clever words) */
 
 h1 {
@@ -74,6 +92,24 @@ h3 {
 p {
 	font-family: 'Open Sans';
 	font-size: 18pt;
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 30pt;
+	}
+
+	h2 {
+		font-size: 25pt;
+	}
+
+	h3 {
+		font-size: 20pt;
+	}
+
+	p {
+		font-size: 15pt;
+	}
 }
 
 /*
