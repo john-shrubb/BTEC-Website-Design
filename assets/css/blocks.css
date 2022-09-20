@@ -161,6 +161,27 @@
 	background: #2a492f;
 }
 
+.nav-bar button {
+	background: transparent;
+	display: none;
+	width: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 5px;
+	height: 50px;
+}
+
+.nav-bar button img {
+	height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.nav-bar h3 {
+		font-size: 20pt;
+	}
+}
+
 /* Typography (Yeah I can use clever words) */
 
 h1 {
@@ -328,7 +349,7 @@ form button {
 
 /* Responsiveness */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 830px) {
 	form {
 		display: flex;
 		justify-content: center;
