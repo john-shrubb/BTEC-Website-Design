@@ -114,6 +114,26 @@
 	}
 }
 
+/* Navigation Bar */
+
+.nav-bar {
+	display: block;
+	width: 100%;
+	position: fixed;
+	float: left;
+	background: #355E3B;
+}
+
+.nav-bar h3 {
+	font-family: 'Poppins';
+	font-size: 25pt;
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+}
+
+
 /* Typography (Yeah I can use clever words) */
 
 h1 {
