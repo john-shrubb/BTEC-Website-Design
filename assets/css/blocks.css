@@ -441,7 +441,7 @@ form button {
 	}
 
 	.videos-wrapper iframe {
-		width: 90vw;
+		width: 85vw;
 		height: calc(90vw / 1.77);
 		margin: auto;
 		padding-top: 30px;
