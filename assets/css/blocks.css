@@ -447,3 +447,17 @@ form button {
 		padding-top: 30px;
 	}
 }
+
+/* 
+	Google maps embeds
+	Use https://googlemapsembed.com - Compatability not guaranteed with embeds from other websites.
+*/
+
+.maps-container {
+	margin-top: 15px;
+}
+
+.maps-container * {
+	width: 100% !important;
+	z-index: 2;
+}
