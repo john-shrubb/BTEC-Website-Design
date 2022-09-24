@@ -35,7 +35,6 @@
 
 /*
 	The 'font-weight' property has a lack of support in IE 8 and below.
-	Internet Explorer is now a retired browser. It is insecure and should not be used in modern organisations due to the lack of security updates.
 */
 
 @font-face {
