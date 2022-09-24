@@ -447,6 +447,7 @@ form button {
 	height: calc(30vw / 1.77);
 	margin: auto;
 	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -459,6 +460,10 @@ form button {
 		height: calc(90vw / 1.77);
 		margin: auto;
 		padding-top: 30px;
+	}
+
+	.videos-wrapper iframe:last-child {
+		padding-bottom: 30px;
 	}
 }
 
