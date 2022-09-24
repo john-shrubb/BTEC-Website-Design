@@ -4,7 +4,7 @@ const hamMenuButton = document.getElementById('nav-ham-menu');
 const hamMenu = document.getElementsByClassName('mobile-a-wrapper')[0];
 
 function openHamMenu() {
-	hamMenu.style.display = 'block';
+	hamMenu.style.display = 'flex';
 }
 
 function closeHamMenu() {
