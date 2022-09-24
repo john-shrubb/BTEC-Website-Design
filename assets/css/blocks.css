@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
 /* CSS Reset. Credit to Meyerweb */
 
 * {
@@ -9,43 +11,6 @@
 	vertical-align: baseline;
 }
 
-/*
-	Font faces
-	(Credit to Google)
-*/
-
-@font-face {
-	font-family: 'Poppins';
-
-	src: url('../fonts/poppins/poppins-medium.ttf') format('truetype');
-	src: url('../fonts/poppins/poppins-medium-webfont.woff2') format('woff2');
-	src: url('../fonts/poppins/poppins-medium-webfont.woff') format('woff');
-
-	text-rendering: optimizeLegibility;
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/open-sans/opensans-var.ttf') format('truetype');
-	src: url('../fonts/open-sans/opensans-var-webfont.woff2') format('woff2');
-	src: url('../fonts/open-sans/opensans-var-webfont.woff') format('woff');
-
-	text-rendering: optimizeLegibility;
-}
-
-/*
-	The 'font-weight' property has a lack of support in IE 8 and below.
-*/
-
-@font-face {
-	font-family: 'Roboto';
-
-	src: url('../fonts/roboto/roboto-medium.ttf') format('truetype');
-	src: url('../fonts/roboto/roboto-medium-webfont.woff2') format('woff2');
-	src: url('../fonts/roboto/roboto-medium-webfont.woff') format('woff');
-
-	text-rendering: optimizeLegibility;
-}
 
 /*
 	The purpose of this file is to standardise and clean up. Reducing file sizes and potentially improving performance
@@ -180,6 +145,7 @@
 	font-size: 25pt;
 	color: white;
 	padding: 15px;
+	font-weight: bolder;
 }
 
 .nav-bar > a {
@@ -267,6 +233,7 @@
 h1 {
 	font-family: 'Poppins';
 	font-size: 40pt;
+	font-weight: bolder;
 }
 
 h2 {
