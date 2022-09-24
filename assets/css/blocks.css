@@ -176,9 +176,42 @@
 	height: 100%;
 }
 
+/*
+	Mobile links
+*/
+
+.mobile-a-wrapper {
+	width: 100%;
+	flex-direction: column;
+}
+
+.mobile-a-wrapper a {
+	font-family: 'Roboto';
+	font-size: 15pt;
+	width: 100%;
+	background: #355E3B;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.mobile-a-wrapper a:hover {
+	background-color: #2a492f;
+}
+
+/* Navigation bar responsiveness */
+
 @media screen and (max-width: 600px) {
 	.nav-bar h3 {
 		font-size: 20pt;
+	}
+
+	.nav-bar button {
+		display: block;
+	}
+
+	.nav-bar .a-wrapper {
+		display: none;
 	}
 }
 
