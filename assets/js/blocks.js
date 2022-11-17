@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
 
 	// Dynamically make sure that rest of content is just below navigation bar
 
-	document.getElementsByClassName('welcome-block')[0].style.paddingTop = navHeight + 'px';
+	document.getElementsByClassName('content-wrapper')[0].children[1].style.paddingTop = navHeight + 'px';
 });
 
 window.addEventListener('resize', () => {
@@ -38,7 +38,9 @@ window.addEventListener('resize', function() {
 	}
 });
 
-// Imported from hammenu.js
+/**
+ * Hamburger menu navigation
+ */
 
 const hamMenuButton = document.getElementById('nav-ham-menu');
 const hamMenu = document.getElementsByClassName('mobile-a-wrapper')[0];
@@ -75,7 +77,9 @@ window.addEventListener('resize', function() {
 	}
 });
 
-// Imported from slideshow-blocks.js
+/**
+ * Slideshow section
+ */
 
 const slideshowBlocks = Array.from(document.getElementsByClassName('slideshow-block'));
 

@@ -128,13 +128,10 @@
 
 /* Navigation Bar */
 
-.fixed-wrapper {
-	position: fixed;
-	width: 100%;
-}
-
 .nav-bar {
+	position: fixed;
 	display: flex;
+	flex-flow: row wrap;
 	width: 100%;
 	float: left;
 	background: #355E3B;
@@ -194,6 +191,7 @@
 */
 
 .mobile-a-wrapper {
+	display: flex;
 	width: 100%;
 	flex-direction: column;
 }
@@ -252,12 +250,12 @@ p {
 }
 
 p a {
-	color: #2929f5;
-	text-decoration: none;
+	color: inherit;
+	text-decoration: underline;
 }
 
 p a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
