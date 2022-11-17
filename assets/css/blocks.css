@@ -20,6 +20,22 @@
 	General blocks
 */
 
+/*
+	Block static backgrounds
+*/
+
+.background-block {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center;
+}
+
+.dark-overlay {
+	background-color: #333333;
+	background-blend-mode: overlay;
+	color: white;
+}
+
 /* Massive block */
 
 .jumbo-block {
@@ -444,7 +460,6 @@ form button {
 	width: 30vw;
 	height: calc(30vw / 1.77);
 	margin: auto;
-	padding-top: 10px;
 	padding-bottom: 15px;
 }
 
@@ -457,7 +472,6 @@ form button {
 		width: 85vw;
 		height: calc(85vw / 1.77);
 		margin: auto;
-		padding-top: 30px;
 	}
 
 	.videos-wrapper iframe:last-child {
