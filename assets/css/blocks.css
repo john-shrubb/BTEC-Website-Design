@@ -11,10 +11,29 @@
 	vertical-align: baseline;
 }
 
-
 /*
-	The purpose of this file is to standardise and clean up. Reducing file sizes and potentially improving performance
+	Root colours
 */
+
+:root {
+	--blocks-green: #355E3B;
+	--blocks-green-hover: #2a492f;
+
+	--blocks-red: #ac1010;
+	--blocks-red-hover: #8a1818;
+
+	--blocks-blue: #1b61e2;
+	--blocks-blue-hover: #0b3d9b;
+
+	--blocks-orange: #ee850d;
+	--blocks-orange-hover: #c56c05;
+
+	--blocks-gray: #cecece;
+	--blocks-gray-hover: #8b8b8b;
+
+	--blocks-dark: #383838;
+	--blocks-dark-hover: #1d1d1d;
+}
 
 /*
 	General blocks
@@ -150,7 +169,7 @@
 	flex-flow: row wrap;
 	width: 100%;
 	float: left;
-	background: #355E3B;
+	background: var(--blocks-green);
 }
 
 .nav-bar h3 {
@@ -184,7 +203,7 @@
 }
 
 .nav-bar .a-wrapper a:hover {
-	background: #2a492f;
+	background: var(--blocks-green-hover);
 }
 
 .nav-bar button {
@@ -216,14 +235,14 @@
 	font-family: 'Roboto';
 	font-size: 15pt;
 	width: 100%;
-	background: #355E3B;
+	background: var(--blocks-green);
 	color: white;
 	text-decoration: none;
 	padding: 15px;
 }
 
 .mobile-a-wrapper a:hover {
-	background-color: #2a492f;
+	background-color: var(--blocks-green-hover);
 }
 
 /* Navigation bar responsiveness */
@@ -315,7 +334,7 @@ p a:hover {
 */
 
 .green-block {
-	background: #355E3B;
+	background: var(--blocks-green);
 	color: white;
 }
 
@@ -379,7 +398,7 @@ textarea {
 
 form textarea:focus, form input[type="text"]:focus {
 	outline: none;
-	border-color: #355E3B;
+	border-color: var(--blocks-green);
 }
 
 label {
@@ -395,7 +414,7 @@ label {
 }
 
 form button {
-	background: #355E3B;
+	background: var(--blocks-green);
 	color: white;
 	padding: 15px;
 	font-size: 17pt;
