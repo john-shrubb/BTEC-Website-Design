@@ -25,6 +25,9 @@
 	--blocks-blue: #1b61e2;
 	--blocks-blue-hover: #0b3d9b;
 
+	--blocks-light-blue: #408ed8;
+	--blocks-light-blue-hover: #2966a0;
+
 	--blocks-orange: #ee850d;
 	--blocks-orange-hover: #c56c05;
 
@@ -293,6 +296,28 @@ p a:hover {
 	text-decoration: none;
 }
 
+/* Text colours */
+
+.green-text {
+	color: var(--blocks-green);
+}
+
+.blue-text {
+	color: var(--blocks-blue);
+}
+
+.light-blue-text {
+	color: var(--blocks-light-blue);
+}
+
+.red-text {
+	color: var(--blocks-red);
+}
+
+.orange-text {
+	color: var(--blocks-orange);
+}
+
 @media screen and (max-width: 600px) {
 	h1 {
 		font-size: 30pt;
@@ -335,6 +360,25 @@ p a:hover {
 
 .green-block {
 	background: var(--blocks-green);
+	color: white;
+}
+
+.blue-block {
+	background-color: var(--blocks-blue);
+	color: white;
+}
+
+.light-blue-block {
+	background-color: var(--blocks-light-blue);
+}
+
+.red-block {
+	background-color: var(--blocks-red);
+	color: white;
+}
+
+.orange-block {
+	background-color: var(--blocks-orange);
 	color: white;
 }
 
@@ -398,7 +442,7 @@ textarea {
 
 form textarea:focus, form input[type="text"]:focus {
 	outline: none;
-	border-color: var(--blocks-green);
+	border-color: var(--blocks-gray-hover);
 }
 
 label {
@@ -413,18 +457,62 @@ label {
 	float: left;
 }
 
-form button {
-	background: var(--blocks-green);
-	color: white;
+button {
+	background: var(--blocks-gray);
+	color: black;
 	padding: 15px;
 	font-size: 17pt;
 	font-family: 'Open Sans';
 	display: block;
 }
 
-.green-block form button {
-	background: lightgray;
-	color: black;
+button:hover {
+	background: var(--blocks-gray-hover);
+}
+
+button.blue-button {
+	background: var(--blocks-blue);
+	color: #ffffff;
+}
+
+button.blue-button:hover {
+	background-color: var(--blocks-blue-hover);
+}
+
+button.green-button {
+	background: var(--blocks-green);
+	color: #ffffff;
+}
+
+button.green-button:hover {
+	background-color: var(--blocks-green-hover);
+}
+
+button.red-button {
+	background: var(--blocks-red);
+	color: #ffffff;
+}
+
+button.red-button:hover {
+	background-color: var(--blocks-red-hover);
+}
+
+button.light-blue-button {
+	background: var(--blocks-light-blue);
+	color: #ffffff;
+}
+
+button.light-blue-button:hover {
+	background-color: var(--blocks-light-blue-hover);
+}
+
+button.orange-button {
+	background: var(--blocks-orange);
+	color: #ffffff;
+}
+
+button.orange-button:hover {
+	background-color: var(--blocks-orange-hover);
 }
 
 /* Responsiveness */
