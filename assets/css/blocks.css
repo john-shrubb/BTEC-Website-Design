@@ -144,6 +144,42 @@
 	}
 }
 
+/* Card Block
+To be used in conjunction with other block classes*/
+
+.card-block {
+	margin: 15px;
+	width: calc(100% - 30px);
+	float: left;
+}
+
+.card-block .content-wrapper {
+	padding: 15px;
+}
+
+.card-stack {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+/* Footer */
+
+.footer-block {
+	background: var(--blocks-dark-hover);
+	color: white;
+	float: left;
+	width: 100%;
+}
+
+.footer-block .content-wrapper {
+	padding: 10px;
+}
+
+.footer-block p {
+	font-size: 13pt;
+}
+
 /* Stack blocks horizontally */
 
 .block-stack-horizontal {
@@ -172,19 +208,20 @@
 	flex-flow: row wrap;
 	width: 100%;
 	float: left;
-	background: var(--blocks-green);
+	background: var(--blocks-gray);
+	color: black;
 }
 
 .nav-bar h3 {
 	font-family: 'Poppins';
 	font-size: 25pt;
-	color: white;
 	padding: 15px;
 	font-weight: bolder;
 }
 
 .nav-bar > a {
 	text-decoration: none;
+	color: inherit;
 }
 
 .nav-bar .a-wrapper {
@@ -201,7 +238,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-right: 7px;
-	color: white;
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -280,6 +317,16 @@ h2 {
 h3 {
 	font-family: 'Roboto';
 	font-size: 25pt;
+}
+
+h4 {
+	font-family: 'Roboto';
+	font-size: 22pt;
+}
+
+h5 {
+	font-family: 'Roboto';
+	font-size: 20pt;
 }
 
 p {
