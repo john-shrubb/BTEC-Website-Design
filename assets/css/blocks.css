@@ -155,12 +155,28 @@ To be used in conjunction with other block classes*/
 
 .card-block .content-wrapper {
 	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	height: calc(100% - 30px);
+}
+
+.card-block img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	margin-top: auto;
 }
 
 .card-stack {
 	display: flex;
 	width: 100%;
 	flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+	.card-stack {
+		flex-direction: column;
+	}
 }
 
 /* Footer */
@@ -243,7 +259,7 @@ To be used in conjunction with other block classes*/
 }
 
 .nav-bar .a-wrapper a:hover {
-	background: var(--blocks-green-hover);
+	background: var(--blocks-gray-hover);
 }
 
 .nav-bar button {
@@ -255,6 +271,7 @@ To be used in conjunction with other block classes*/
 	margin-bottom: auto;
 	margin-right: 5px;
 	height: 50px;
+	padding: 5px;
 }
 
 .nav-bar button img {
@@ -275,14 +292,14 @@ To be used in conjunction with other block classes*/
 	font-family: 'Roboto';
 	font-size: 15pt;
 	width: 100%;
-	background: var(--blocks-green);
-	color: white;
+	background: var(--blocks-gray);
+	color: black;
 	text-decoration: none;
 	padding: 15px;
 }
 
 .mobile-a-wrapper a:hover {
-	background-color: var(--blocks-green-hover);
+	background-color: var(--blocks-gray-hover);
 }
 
 /* Navigation bar responsiveness */
@@ -299,6 +316,25 @@ To be used in conjunction with other block classes*/
 	.nav-bar .a-wrapper {
 		display: none;
 	}
+}
+
+/* Navbar Colours */
+
+.nav-bar.red-block a:hover {
+	background: var(--blocks-red-hover); 
+}
+
+.nav-bar.red-block .mobile-a-wrapper a {
+	background: var(--blocks-red);
+	color: white;
+}
+
+.nav-bar.red-block .mobile-a-wrapper a:hover {
+	background: var(--blocks-red-hover);
+}
+
+.nav-bar.red-block button:hover {
+	background: var(--blocks-red-hover);
 }
 
 /* Typography (Yeah I can use clever words) */
