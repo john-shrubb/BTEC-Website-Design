@@ -394,6 +394,17 @@ p a:hover {
 	text-decoration: none;
 }
 
+a.button {
+	background: var(--blocks-gray);
+	color: black;
+	padding: 15px;
+	font-size: 17pt;
+	font-family: 'Open Sans';
+	display: block;
+	text-decoration: none;
+	width: fit-content;
+}
+
 img {
 	max-width: 100%;
 }
@@ -569,52 +580,52 @@ button {
 }
 
 button:hover {
-	background: var(--blocks-gray-hover);
+	background: var(--blocks-gray-hover) !important;
 }
 
-button.blue-button {
-	background: var(--blocks-blue);
+.blue-button {
+	background: var(--blocks-blue) !important;
+	color: #ffffff !important;
+}
+
+.blue-button:hover {
+	background-color: var(--blocks-blue-hover) !important;
+}
+
+.green-button {
+	background: var(--blocks-green) !important;
+	color: #ffffff !important;
+}
+
+.green-button:hover {
+	background-color: var(--blocks-green-hover) !important;
+}
+
+.red-button {
+	background: var(--blocks-red) !important;
+	color: #ffffff !important;
+}
+
+.red-button:hover {
+	background-color: var(--blocks-red-hover) !important;
+}
+
+.light-blue-button {
+	background: var(--blocks-light-blue) !important;
+	color: #ffffff !important;
+}
+
+.light-blue-button:hover {
+	background-color: var(--blocks-light-blue-hover) !important;
+}
+
+.orange-button {
+	background: var(--blocks-orange) !important;
 	color: #ffffff;
 }
 
-button.blue-button:hover {
-	background-color: var(--blocks-blue-hover);
-}
-
-button.green-button {
-	background: var(--blocks-green);
-	color: #ffffff;
-}
-
-button.green-button:hover {
-	background-color: var(--blocks-green-hover);
-}
-
-button.red-button {
-	background: var(--blocks-red);
-	color: #ffffff;
-}
-
-button.red-button:hover {
-	background-color: var(--blocks-red-hover);
-}
-
-button.light-blue-button {
-	background: var(--blocks-light-blue);
-	color: #ffffff;
-}
-
-button.light-blue-button:hover {
-	background-color: var(--blocks-light-blue-hover);
-}
-
-button.orange-button {
-	background: var(--blocks-orange);
-	color: #ffffff;
-}
-
-button.orange-button:hover {
-	background-color: var(--blocks-orange-hover);
+.orange-button:hover {
+	background-color: var(--blocks-orange-hover) !important;
 }
 
 /* Responsiveness */
