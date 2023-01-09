@@ -238,6 +238,8 @@ To be used in conjunction with other block classes*/
 .nav-bar > a {
 	text-decoration: none;
 	color: inherit;
+	display: flex;
+	flex-direction: row;
 }
 
 .nav-bar .a-wrapper {
@@ -276,6 +278,13 @@ To be used in conjunction with other block classes*/
 
 .nav-bar button img {
 	height: 100%;
+}
+
+.nav-bar a img {
+	height: 75px;
+	margin-top: auto;
+	margin-bottom: auto;
+	float: left;
 }
 
 /*
