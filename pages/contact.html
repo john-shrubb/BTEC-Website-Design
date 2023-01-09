@@ -19,7 +19,7 @@
 			</a>
 
 			<div class="a-wrapper">
-				<a href="#">About</a>
+				<a href="./about.html">About</a>
 				<a href="./contact.html">Contact</a>
 			</div>
 
@@ -49,14 +49,37 @@
             </div>
         </div>
 
-        <div class="large-block red-block">
+        <div class="small-block red-block">
             <div class="content-wrapper">
-                <h1></h1>
-                <p></p>
-                <form action=""></form>
+                <p>No responses are recorded.</p>
+                <form action="contact.html" id="contactForm">
+                    <label for="nameInp">Name</label><input type="text" name="" id="nameInp"><br>
+                    <label for="emailInp">Email</label><input type="text" name="" id="emailInp"><br>
+                    <label for="messageInp">Message</label><textarea name="" id="messageInp" cols="30" rows="10"></textarea>
+                    <button>Submit</button>
+                </form>
             </div>
         </div>
+
+        <div class="footer-block">
+			<div class="content-wrapper">
+				<p>&copy;Headspace 2022
+					<br>
+					<a href="pages/employers.html">For employers</a>
+					<br>
+					<a href="pages/organisations.html">For organisations that may be interested in helping Headspace</a>
+				</p>
+			</div>
+		</div>
     </div>
     <script src="../assets/js/blocks.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('contactForm').childNodes.forEach(function (value) {
+                value.value = '';
+            })
+        });
+    </script>
 </body>
 </html>
