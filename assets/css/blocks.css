@@ -147,6 +147,12 @@
 /* Card Block
 To be used in conjunction with other block classes*/
 
+.card-stack a {
+	float: left;
+	width: calc(100% - 30px);
+	margin: 0;
+}
+
 .card-block {
 	margin: 15px;
 	width: calc(100% - 30px);
@@ -386,6 +392,10 @@ p a {
 
 p a:hover {
 	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
 }
 
 /* Text colours */
