@@ -183,6 +183,10 @@ To be used in conjunction with other block classes*/
 	.card-stack {
 		flex-direction: column;
 	}
+	
+	.card-stack a {
+		width: 100%;
+	}
 }
 
 /* Footer */

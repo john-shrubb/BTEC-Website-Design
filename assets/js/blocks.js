@@ -54,16 +54,17 @@ function closeHamMenu() {
 }
 
 function hamMenuOpen() {
-	if (hamMenu.style.display === 'block') {
+	if (hamMenu.style.display === 'flex') {
 		return true;
 	} else if (hamMenu.style.display === 'none') {
 		return false;
 	} else {
-		return true;
+		return false;
 	}
 }
 
 hamMenuButton.addEventListener('click', function() {
+	console.log('Hamburger menu tapped.');
 	if (hamMenuOpen()) {
 		closeHamMenu();
 	} else {
