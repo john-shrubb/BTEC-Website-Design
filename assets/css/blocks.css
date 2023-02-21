@@ -148,9 +148,8 @@
 To be used in conjunction with other block classes*/
 
 .card-stack a {
-	float: left;
 	width: calc(100% - 30px);
-	margin: 0;
+	display: block;
 }
 
 .card-block {
@@ -360,28 +359,28 @@ To be used in conjunction with other block classes*/
 
 h1 {
 	font-family: 'Poppins';
-	font-size: 40pt;
+	font-size: 34pt;
 	font-weight: bolder;
 }
 
 h2 {
 	font-family: 'Roboto';
-	font-size: 30pt;
+	font-size: 28pt;
 }
 
 h3 {
 	font-family: 'Roboto';
-	font-size: 25pt;
+	font-size: 24pt;
 }
 
 h4 {
 	font-family: 'Roboto';
-	font-size: 22pt;
+	font-size: 21pt;
 }
 
 h5 {
 	font-family: 'Roboto';
-	font-size: 20pt;
+	font-size: 19pt;
 }
 
 p {
