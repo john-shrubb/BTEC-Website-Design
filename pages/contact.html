@@ -67,6 +67,7 @@
         <div class="small-block red-block">
             <div class="content-wrapper">
                 <p>No responses are recorded.</p>
+                <p id="statusTextForm" style="display: none; font-weight: bolder; color: #ffffff;">Text</p>
                 <form action="contact.html" id="contactForm">
                     <label for="nameInp">Name</label><input type="text" name="" id="nameInp"><br>
                     <label for="emailInp">Email</label><input type="text" name="" id="emailInp"><br>
@@ -102,9 +103,29 @@
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(event) {
             event.preventDefault();
-            document.getElementById('contactForm').childNodes.forEach(function (value) {
-                value.value = '';
-            })
+            const emailInput = document.getElementById('emailInp');
+            const formText = document.getElementById('statusTextForm');
+
+            // Test the email address to ensure it is valid
+
+            if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailInput.value)) {
+                // Credit for regex: https://linuxhint.com/email-validation-javascript/
+                formText.innerText = 'Invalid email address. Please try again.'
+                formText.style.display = 'inline';
+            } else {
+                // Clear form
+
+                document.getElementById('contactForm').childNodes.forEach(function (value) {
+                    value.value = '';
+                })
+                
+                formText.innerText = 'Submitted form succesfully';
+                formText.style.display = 'inline';
+            }
+
+            setTimeout(() => {
+                formText.style.display = 'none';
+            }, 3000);
         });
     </script>
 </body>
