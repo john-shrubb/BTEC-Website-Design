@@ -110,18 +110,20 @@
 
             if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailInput.value)) {
                 // Credit for regex: https://linuxhint.com/email-validation-javascript/
-                formText.innerText = 'Invalid email address. Please try again.'
+                formText.innerText = 'Invalid email address. Please try again.';
                 formText.style.display = 'inline';
             } else {
                 // Clear form
 
                 document.getElementById('contactForm').childNodes.forEach(function (value) {
                     value.value = '';
-                })
+                });
                 
                 formText.innerText = 'Submitted form succesfully';
                 formText.style.display = 'inline';
             }
+
+            // Reset text display to none after a while, effectively resetting the form.
 
             setTimeout(() => {
                 formText.style.display = 'none';
